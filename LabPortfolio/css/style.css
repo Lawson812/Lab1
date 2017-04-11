@@ -1,0 +1,89 @@
+@font-face {
+    font-family: zniko;
+    src: url(../font/zniko.ttf);   
+    }
+
+.intro{
+    
+    font-size: 24px;
+    font-weight: bold;
+    font-size-adjust: auto;
+    margin:auto;
+    width:500px;
+    font-family:zniko;
+
+}
+
+.youngJames {
+    border-radius: 35%;
+    margin-left:38%;
+    margin-bottom: 100px;
+    margin-top:100px;   
+}
+.navbar {
+    overflow: hidden;
+    background-color:lightgray;
+    bottom:0px;
+    left:0px;
+    position: fixed;
+    height: 40px;
+    width:100%;
+    border-style: none;
+    text-align: center;
+    
+}
+
+a:link{
+    text-decoration: none;
+    color:black;
+    font-family:zniko;
+    padding:40px;
+    display:inline;
+    font-weight: bold;
+    
+}
+a:visited{
+    text-decoration: none;
+    color:white;
+}
+
+.navbar a:hover{
+    background-color: slategrey;
+}
+
+    
+iframe {
+    margin-left:260px;
+    padding-bottom: 30px;
+}
+.about {
+    width:300px;
+    text-align: center;
+    margin-left: 520px;
+    background-color: white;
+    border: 1px solid black;
+    font-family:zniko;
+    text-decoration-color: black;
+    font-size: 20px;
+    border-radius: 5px;
+    
+}
+div img:hover {
+    
+    transform:scale(1);
+    transition:1s;
+}
+div img{
+    transform: scale(.5);
+    margin-left: 120px;
+}
+h3 {
+    display: inline-block;
+}
+body{
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    background-size:contain;
+}
